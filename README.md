@@ -39,5 +39,7 @@ It's a quick message that pops up on the screen. It’s a way to give users a sh
 
 ## References
 
-- Section 5: https://tutorials.eu/the-power-of-jetpack-compose-and-ui-customization-day-5-android-14-masterclass/
+- Section 5
+
+https://tutorials.eu/the-power-of-jetpack-compose-and-ui-customization-day-5-android-14-masterclass/
 
