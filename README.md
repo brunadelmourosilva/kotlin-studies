@@ -35,6 +35,34 @@ It’s like a messenger that helps parts of your app talk to the operating syste
 
 It's a quick message that pops up on the screen. It’s a way to give users a short message or feedback, like “Message sent” or “Error occurred.”
 
+## Important concepts
+
+- State
+
+When the state of a component changes, the UI is updated to reflect this new state.
+For instance, if a user types something into a text box, the state of the text box changes, and the UI is updated to show the new text.
+
+In Kotlin, when developing Android apps, you often work with mutable and immutable states. 
+Mutable states are those that can be changed, while immutable states cannot be changed once they are set.
+
+Here’s a basic syntax for creating a *mutable* state in Kotlin:
+
+```
+val state = mutableStateOf(initialValue)
+```
+ 
+And here’s how you might create an *immutable* state:
+
+```
+val state = remember { mutableStateOf(initialValue) }
+```
+
+Another way to declare a state, using the *by* keyword:
+
+```
+var state by remember { mutableStateOf("") }
+```
+
 ---
 
 ## References
