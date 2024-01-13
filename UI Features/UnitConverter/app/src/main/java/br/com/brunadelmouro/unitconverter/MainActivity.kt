@@ -102,6 +102,7 @@ fun UnitConverter() {
                         onClick = { /*TODO*/ })
                     DropdownMenuItem(text = { Text(text = "Feet") },
                         onClick = { /*TODO*/ })
+                    DropdownMenuItem(text = { Text(text = "Millimeters") }, onClick = { /*TODO*/ })
                 }
             }
         }
