@@ -48,13 +48,22 @@ Mutable states are those that can be changed, while immutable states cannot be c
 Here’s a basic syntax for creating a *mutable* state in Kotlin:
 
 ```
-val state = mutableStateOf(initialValue)
+val countState = mutableStateOf(0)
+ 
+// To update the state
+countState.value = 5
 ```
  
 And here’s how you might create an *immutable* state:
 
 ```
-val state = remember { mutableStateOf(initialValue) }
+val countState = remember { mutableStateOf(0) }
+ 
+// This will cause a compile error because countState is read-only
+// countState = mutableStateOf(5)
+ 
+// To update the state
+countState.value = 5
 ```
 
 Another way to declare a state, using the *by* keyword:
