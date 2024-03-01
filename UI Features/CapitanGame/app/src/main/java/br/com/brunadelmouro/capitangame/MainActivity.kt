@@ -44,6 +44,7 @@ class MainActivity : ComponentActivity() {
 fun CapitanGame() {
     val treasuresFound = remember { mutableStateOf(0) }
     val direction = remember { mutableStateOf("North") }
+
     // another way to declare a mutable state, it isn't necessary to declare the .value
     var stormOrTreasure by remember { mutableStateOf("") }
 
