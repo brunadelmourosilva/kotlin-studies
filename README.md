@@ -13,6 +13,7 @@
 - OutlinedTextField
 - Spacer
 - Padding: Modifier.padding(16.dp)
+- LazyColumn
 
 ## Annotations
 
