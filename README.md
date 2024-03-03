@@ -72,6 +72,30 @@ Another way to declare a state, using the *by* keyword:
 var state by remember { mutableStateOf("") }
 ```
 
+- Recomposition
+
+It refers to the process where the UI automatically updates in response to state changes.
+When the state changes, the composable function automatically recomposes.
+
+Ex.: When you type in a OutlinedTextField, the state of this input is changing. Also, if you wanna print the message that you're typing,
+then there is a Text Composable for example, where it's recomposing as you write in order to show in the screen.
+
+Another example:
+
+```
+@Composable
+fun Counter() {
+    val count = remember { mutableStateOf(0) }
+ 
+    Button(onClick = { count.value++ }) {
+        Text("Clicked ${count.value} times")
+    }
+}
+```
+
+In this example, the Counter composable function has a mutable state count. Every time the button is clicked, the count value increases, 
+and the Counter function recomposes to update the UI with the new count value
+
 ---
 
 ## References
@@ -79,4 +103,8 @@ var state by remember { mutableStateOf("") }
 - Section 5
 
 https://tutorials.eu/the-power-of-jetpack-compose-and-ui-customization-day-5-android-14-masterclass/
+
+- Section 6
+
+https://tutorials.eu/mastering-state-management-and-essential-kotlin-syntax-day-6-android-14-masterclass/
 
