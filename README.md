@@ -94,7 +94,11 @@ fun Counter() {
 ```
 
 In this example, the Counter composable function has a mutable state count. Every time the button is clicked, the count value increases, 
-and the Counter function recomposes to update the UI with the new count value
+and the Counter function recomposes to update the UI with the new count value.
+
+- Remember: funciona como um "banco de dados" pois a cada recomposição da UI, o valor da variável envolvida com o "remember", não será perdido.
+- Mutable State Of: torna a variável mutável para ser atualizada com outros valores no decorrer do fluxo. Ex.: uma variável receberá diferentes cores,
+conforme o botão clicado com uma determinada cor.
 
 ---
 
