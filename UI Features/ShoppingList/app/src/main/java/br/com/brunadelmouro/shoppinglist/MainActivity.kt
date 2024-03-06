@@ -34,38 +34,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ShoppingListBaseBackground()
+                    ShoppingList()
                 }
-            }
-        }
-    }
-}
-
-@Composable
-fun ShoppingListBaseBackground() {
-
-    var itemList by remember { mutableStateOf(listOf<Item>()) }
-
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center
-    )
-    {
-        Button(
-            onClick = { /*TODO*/ },
-            modifier = Modifier.align(Alignment.CenterHorizontally))
-        {
-            Text(text = "Add Item")
-        }
-        
-        LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(16.dp)
-        )
-        {
-            items(itemList) {
-
             }
         }
     }
@@ -75,6 +45,6 @@ fun ShoppingListBaseBackground() {
 @Composable
 fun GreetingPreview() {
     ShoppingListTheme {
-        ShoppingListBaseBackground()
+        ShoppingList()
     }
 }
