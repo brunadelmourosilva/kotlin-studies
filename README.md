@@ -117,3 +117,6 @@ https://tutorials.eu/the-power-of-jetpack-compose-and-ui-customization-day-5-and
 
 https://tutorials.eu/mastering-state-management-and-essential-kotlin-syntax-day-6-android-14-masterclass/
 
+- Section 7
+
+https://tutorials.eu/exploring-more-advanced-ui-components-day-7-android-14-masterclass/
