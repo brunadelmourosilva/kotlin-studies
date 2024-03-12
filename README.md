@@ -107,6 +107,12 @@ conforme o botão clicado com uma determinada cor.
 
 ---
 
+## MVVM Architecture
+
+MVVM helps organize code and break programs into modules to make development, updating and reuse of code simpler and faster.
+
+![image](https://github.com/brunadelmourosilva/kotlin-studies/assets/61791877/bd434b85-5911-46c2-a007-df85f49baac1)
+
 ## References
 
 - Section 5
