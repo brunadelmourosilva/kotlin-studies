@@ -24,7 +24,9 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import br.com.brunadelmouro.mvvmarchitecture.ui.theme.MvvmArchitectureTheme
 
-class MainActivity : ComponentActivity() {
+//todo VIEW
+
+class MainActivityView : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
