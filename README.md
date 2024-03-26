@@ -126,3 +126,7 @@ https://tutorials.eu/mastering-state-management-and-essential-kotlin-syntax-day-
 - Section 7
 
 https://tutorials.eu/exploring-more-advanced-ui-components-day-7-android-14-masterclass/
+
+- Section 8 (MVVM, Inheritance, Interface)
+
+https://tutorials.eu/the-foundations-of-mvvm-inheritance-and-interfaces-day-8-android-14-masterclass/
