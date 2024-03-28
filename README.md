@@ -113,6 +113,26 @@ MVVM helps organize code and break programs into modules to make development, up
 
 ![image](https://github.com/brunadelmourosilva/kotlin-studies/assets/61791877/bd434b85-5911-46c2-a007-df85f49baac1)
 
+---
+
+## API Calls in Kotlin
+
+### Important dependencies
+
+```
+//Compose ViewModel
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+
+//Network calls
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+//Json to Kotlin object mapping
+implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+//Image loading
+implementation("io.coil-kt:coil-compose:2.4.0")
+```
+
 ## References
 
 - Section 5
