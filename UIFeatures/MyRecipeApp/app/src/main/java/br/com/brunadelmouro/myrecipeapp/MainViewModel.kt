@@ -32,7 +32,7 @@ class MainViewModel : ViewModel() {
 
                 _categorieState.value = _categorieState.value.copy(
                     list = response.categories,
-                    loading = false,
+                    loading = false, // TODO: when the response is received, then it's not necessary loading the page
                     error = null
                 )
 
