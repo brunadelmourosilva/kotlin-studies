@@ -20,6 +20,8 @@ class MainViewModel : ViewModel() {
     val categoriesState: State<RecipeState> = _categorieState
 
     // TODO: initialize the coroutine
+    // TODO: it's like a static block in Java
+    // TODO: So when the app start, the first code executed, is to fetch the categories
     init {
         fetchCategories()
     }
