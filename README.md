@@ -18,6 +18,8 @@
 - IconButton
 - Icon (images)
 - BasicTextField
+- LazyVerticalGrid
+- CircularProgressIndicator
 
 ## Annotations
 
