@@ -152,3 +152,7 @@ https://tutorials.eu/exploring-more-advanced-ui-components-day-7-android-14-mast
 - Section 8 (MVVM, Inheritance, Interface)
 
 https://tutorials.eu/the-foundations-of-mvvm-inheritance-and-interfaces-day-8-android-14-masterclass/
+
+- Section 9 (API communication)
+
+https://tutorials.eu/navigating-libraries-apis-and-remote-content-day-9-android-14-masterclass/
