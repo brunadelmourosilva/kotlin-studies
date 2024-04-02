@@ -153,6 +153,6 @@ https://tutorials.eu/exploring-more-advanced-ui-components-day-7-android-14-mast
 
 https://tutorials.eu/the-foundations-of-mvvm-inheritance-and-interfaces-day-8-android-14-masterclass/
 
-- Section 9 (API communication)
+- Section 9 (API communication, async coroutines)
 
 https://tutorials.eu/navigating-libraries-apis-and-remote-content-day-9-android-14-masterclass/
