@@ -20,6 +20,7 @@
 - BasicTextField
 - LazyVerticalGrid
 - CircularProgressIndicator
+- NavController / NavHost
 
 ## Annotations
 
@@ -156,3 +157,7 @@ https://tutorials.eu/the-foundations-of-mvvm-inheritance-and-interfaces-day-8-an
 - Section 9 (API communication, async coroutines)
 
 https://tutorials.eu/navigating-libraries-apis-and-remote-content-day-9-android-14-masterclass/
+
+- Section 10 (Navigation in Android)
+
+https://developer.android.com/develop/ui/compose/navigation#kts
