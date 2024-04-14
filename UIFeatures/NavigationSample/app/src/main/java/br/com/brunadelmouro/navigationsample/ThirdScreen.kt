@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun SecondScreen(navigationToFirstScreen:() -> Unit, navigateToThirdScreen:() -> Unit) {
+fun ThirdScreen(navigationToFirstScreen:() -> Unit) {
 
     Column(
         modifier = Modifier
@@ -23,21 +23,17 @@ fun SecondScreen(navigationToFirstScreen:() -> Unit, navigateToThirdScreen:() ->
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "This is the second screen", fontSize = 24.sp)
+        Text(text = "This is the third screen", fontSize = 24.sp)
         Text(text = "Welcome!", fontSize = 24.sp)
 
         Button(onClick = {navigationToFirstScreen()}) {
             Text(text = "Go to first screen")
-        }
-
-        Button(onClick = {navigateToThirdScreen()}) {
-            Text(text = "Go to third screen")
         }
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun SecondScreenPreview() {
-    SecondScreen({},{})
+fun ThirdScreenPreview() {
+    ThirdScreen({})
 }
