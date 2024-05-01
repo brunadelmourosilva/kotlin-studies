@@ -21,6 +21,7 @@
 - LazyVerticalGrid
 - CircularProgressIndicator
 - NavController / NavHost
+- Scroll Text: Modifier.verticalScroll(rememberScrollState())
 
 ## Annotations
 
@@ -172,8 +173,21 @@ https://developer.android.com/develop/ui/compose/navigation#kts
 
 ---
 
+### Review by week
+
+####  Every 2 weeks
+
+[] - put date here
+
+Revised content and projects:
+- xxxx
+
+---
+
 ### To be done after the studies for AWS certification ⚠️
 
 - Review all the content learned
+  - Readme
+  - Projects (mark as check the projects reviewed by week) 
 - Build a petshop app with API calls based on this project: https://github.com/brunadelmourosilva/UNIFEI-COM222-projeto-final-backend
 - Continue to watch the course and implement new features in the app built above
