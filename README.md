@@ -138,7 +138,9 @@ implementation("io.coil-kt:coil-compose:2.4.0")
 
 ---
 
-## Naviagation between screens in Androind
+## Naviagation between screens in Android
+
+
 
 ---
 
