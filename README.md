@@ -136,6 +136,12 @@ implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 implementation("io.coil-kt:coil-compose:2.4.0")
 ```
 
+---
+
+## Naviagation between screens in Androind
+
+---
+
 ## References
 
 - Section 5
@@ -161,3 +167,11 @@ https://tutorials.eu/navigating-libraries-apis-and-remote-content-day-9-android-
 - Section 10 (Navigation in Android)
 
 https://developer.android.com/develop/ui/compose/navigation#kts
+
+---
+
+### To be done after the studies for AWS certification ⚠️
+
+- Review all the content learned
+- Build a petshop app with API calls based on this project: https://github.com/brunadelmourosilva/UNIFEI-COM222-projeto-final-backend
+- Continue to watch the course and implement new features in the app built above
