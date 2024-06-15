@@ -139,7 +139,7 @@ implementation("io.coil-kt:coil-compose:2.4.0")
 
 ---
 
-## Naviagation between screens in Android
+## Navigation between screens in Android
 
 
 
@@ -177,10 +177,11 @@ https://developer.android.com/develop/ui/compose/navigation#kts
 
 ####  Every 2 weeks
 
-[] - put date here
+[x] - 15/06/2024
 
 Revised content and projects:
-- xxxx
+
+- Revised README and MyRecipeApp project
 
 ---
 
