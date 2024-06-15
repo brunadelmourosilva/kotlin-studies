@@ -177,7 +177,7 @@ https://developer.android.com/develop/ui/compose/navigation#kts
 
 ####  Every 2 weeks
 
-[x] - 15/06/2024
+- [x] 15/06/2024
 
 Revised content and projects:
 
