@@ -183,6 +183,14 @@ Revised content and projects:
 
 - Revised README and MyRecipeApp project
 
+- [x] 29/06/2024
+
+Revised content and projects:
+
+- Revised README and CapitanGame project (uses state concept in order to change the UI when the component changes)
+
+(review Mvvm project)
+
 ---
 
 ### To be done after the studies for AWS certification ⚠️
