@@ -190,7 +190,13 @@ Revised content and projects:
 - Revised README and CapitanGame project (uses state concept in order to change the UI when the component changes)
 - https://chatgpt.com/share/61068f7e-f97b-4b86-ab89-b3f987efaa1a
 
-(review Mvvm project)
+- [x] 29/07/2024
+
+Revised content and projects:
+
+- Revised README and MvvmArchitecture project
+
+review naviagationsample and unitconverter projects
 
 ---
 
