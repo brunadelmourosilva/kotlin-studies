@@ -196,7 +196,13 @@ Revised content and projects:
 
 - Revised README and MvvmArchitecture project
 
-review naviagationsample and unitconverter projects
+- [x] 24/08/2024
+
+Revised content and projects:
+
+- Revised README and naviagationsample project
+
+review shoppinglist, unitconverter and navigationsample
 
 ---
 
