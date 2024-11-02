@@ -202,7 +202,13 @@ Revised content and projects:
 
 - Revised README and naviagationsample project
 
-review shoppinglist, unitconverter and navigationsample
+- [x] 02/11/2024
+
+Revised content and projects:
+
+- Revised README and shoppinglist project
+
+review unitconverter and navigationsample
 
 ---
 
